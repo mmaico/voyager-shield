@@ -1,0 +1,49 @@
+{
+  "name": "@voyager-shield/core",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Marcelo Maico <mmaico@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e ts --exec 'ts-node src/server.ts'",
+    "build": "npx webpack",
+    "webpack": "NODE_ENV=production webpack",
+    "build:dev": "webpack --mode development --config ./webpack.config.js --progress --color --display-error-details",
+    "build:prod": "cross-env NODE_ENV=production webpack --mode production --config ./webpack.config.js  --progress  --color --display-error-details --bail"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.55",
+    "@types/express": "^4.17.6",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "apollo-server-express": "^2.5.1",
+    "css-loader": "^3.5.3",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^4.3.0",
+    "lerna": "^3.22.0",
+    "nodemon": "^2.0.4",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "es6-template-strings": "^2.0.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

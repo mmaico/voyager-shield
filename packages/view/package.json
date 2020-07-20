@@ -1,0 +1,32 @@
+{
+  "name": "@voyager-shield/view",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Marcelo Maico <mmaico@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode development --config ./webpack.config.js --progress --color --display-error-details"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.10.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.55"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}

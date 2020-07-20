@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#voyager .node .type-title polygon {
+    fill: #E9B425;
+}
+#voyager .graphql-voyager > .viewport {
+    fill: #E9B425;
+}
+
+#voyager .edge.highlighted path:not(.hover-path), .edge.hovered path:not(.hover-path), .edge:hover path:not(.hover-path) {
+    stroke: #DFAC23;
+    stroke-width: 3;
+}
+
+#voyager .loading-animation path {
+    fill: #E9B425;
+}
+
+#voyager #svg-pan-zoom-controls path {
+    fill-opacity: 0.75;
+    fill: #E9B425;
+}
+
+#voyager .loading-animation h1 {
+    text-align: center;
+    color: #E9B425;
+    letter-spacing: 4px;
+}
+
+#voyager .node.selected polygon {
+    stroke: #DFAC23;
+    stroke-width: 3;
+}
+
+#voyager .graphql-voyager > .logo-shield {
+    position: relative;
+    bottom: -36%;
+    left: 5px;
+    background: #fff;
+    padding: 10px;
+}
+
+#voyager .graphql-voyager > .logo-shield img {
+    height: auto;
+    width: 168px;
+}
+
+#voyager .loading-box {
+    left: 0;
+}
+
+#voyager .setting-other-options svg {
+    color: #DFAC23;
+}
+
+#shield > .MuiInput-root  {
+    width: 100%;
+}
+
+#voyager {
+    height: 100vh;
+}
+.edge.field-selected > path:not(.hover-path), .edge.field-selected > polygon {
+    stroke: #FFEB83 !important;
+}
+.field.field-selected > polygon {
+    fill: rgba(255,235,131,1);
+}
