@@ -20,7 +20,7 @@
     "@material-ui/lab": "^4.0.0-alpha.55"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "source-map-loader": "^0.2.4",
